@@ -11,10 +11,10 @@
   "author": "ruidoc",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^2.4.1",
     "commander": "^2.16.0",
     "git-clone": "^0.1.0",
     "ora": "^3.0.0",
-    "shelljs": "^0.8.2",
-    "tracer": "^0.9.1"
+    "shelljs": "^0.8.2"
   }
 }
