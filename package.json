@@ -1,6 +1,6 @@
 {
   "name": "smarty-cli",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "bin": {
     "smarty": "./bin/smarty-cli.js"
