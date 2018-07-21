@@ -1,0 +1,20 @@
+{
+  "name": "smarty-cli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "smarty": "./bin/smarty-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ruidoc",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.16.0",
+    "git-clone": "^0.1.0",
+    "ora": "^3.0.0",
+    "shelljs": "^0.8.2",
+    "tracer": "^0.9.1"
+  }
+}
