@@ -1,9 +1,9 @@
 {
-  "name": "smarty-cli",
-  "version": "0.1.0",
+  "name": "hammer-cli",
+  "version": "0.1.1",
   "description": "",
   "bin": {
-    "smarty": "./bin/smarty-cli.js"
+    "hammer": "bin/hammer-cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,10 @@
   "author": "ruidoc",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "commander": "^2.16.0",
+    "chalk": "^2.4.2",
+    "commander": "^2.20.3",
     "git-clone": "^0.1.0",
-    "ora": "^3.0.0",
-    "shelljs": "^0.8.2"
+    "ora": "^3.4.0",
+    "shelljs": "^0.8.4"
   }
 }

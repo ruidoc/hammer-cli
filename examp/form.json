@@ -1,0 +1,94 @@
+{
+  "name": "xuqserve-index",
+  "framwork": "vue",
+  "uiComponent": "ant-design-vue",
+  "template": "table",
+  "filter": [
+    {
+      "type": "search",
+      "field": "product_name",
+      "prompt": "服务项目名称搜索"
+    },
+    {
+      "type": "select",
+      "field": "semester_id",
+      "prompt": "选择学期",
+      "event": true
+    },
+    {
+      "type": "select",
+      "field": "collection_id",
+      "prompt": "选择收费主体"
+    },
+    {
+      "type": "select",
+      "field": "organization_id",
+      "prompt": "选择所属机构"
+    }
+  ],
+  "tableColums": [
+    {
+      "label": "ID",
+      "field": "id",
+      "custom": "text"
+    },
+    {
+      "label": "项目名称",
+      "field": "product_name"
+    },
+    {
+      "label": "价格（元）",
+      "field": "price"
+    },
+    {
+      "label": "可优惠",
+      "field": "is_preferential",
+      "custom": true
+    },
+    {
+      "label": "可退费",
+      "field": "is_refundable",
+      "custom": true
+    },
+    {
+      "label": "分账优先级",
+      "field": "share_sort"
+    },
+    {
+      "label": "学期",
+      "field": "semester_name"
+    },
+    {
+      "label": "收费主体",
+      "field": "collection_name"
+    },
+    {
+      "label": "所属机构",
+      "field": "organization_name"
+    },
+    {
+      "label": "费用类型",
+      "field": "expense_type_name"
+    },
+    {
+      "label": "状态",
+      "field": "status",
+      "custom": "tag"
+    }
+  ],
+  "tableAction": [
+    "edit-modal","delete"
+  ],
+  "form": [
+    {
+      "type": "select",
+      "field": "semester_id",
+      "label": "复制到学期"
+    },
+    {
+      "type": "other",
+      "field": "product_ids",
+      "label": "选择产品"
+    }
+  ]
+}
