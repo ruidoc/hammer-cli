@@ -1,5 +1,5 @@
 {
-  "name": "hammer-cli",
+  "name": "@ruims/hammer-cli",
   "version": "0.1.1",
   "description": "",
   "bin": {
@@ -9,12 +9,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ruidoc",
-  "license": "ISC",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "beta",
+    "access": "public"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.20.3",
     "git-clone": "^0.1.0",
     "ora": "^3.4.0",
     "shelljs": "^0.8.4"
-  }
+  },
+  "files": [
+    "lib",
+    "src"
+  ]
 }
