@@ -1,13 +1,12 @@
 {
   "name": "xuqserve-combine",
-  "framwork": "vue",
+  "framwork": "react",
   "uiComponent": "ant-design-vue",
   "template": "table",
   "action": [
     "add-modal"
   ],
-  "tableColums": [
-    {
+  "tableColums": [{
       "label": "ID",
       "field": "id",
       "custom": "text"
@@ -43,8 +42,7 @@
       "field": "expense_type_name"
     }
   ],
-  "form": [
-    {
+  "form": [{
       "type": "select",
       "field": "semester_id",
       "label": "关联学期"
